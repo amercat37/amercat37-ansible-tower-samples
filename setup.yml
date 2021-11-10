@@ -1,5 +1,6 @@
 - name: Gather Facts Sample
   hosts: all
+  gather_facts: false
   tasks:
     - name: Gather Facts
       setup:
