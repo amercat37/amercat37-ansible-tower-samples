@@ -1,0 +1,5 @@
+- name: Gather Facts Sample
+  hosts: all
+  tasks:
+    - name: Gather Facts
+      setup:
